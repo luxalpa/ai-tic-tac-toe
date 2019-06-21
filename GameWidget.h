@@ -20,7 +20,7 @@ public:
 signals:
 
 public slots:
-    void highlightWinner(Player *p, QSet<QPoint> fields);
+	void highlightWinner(Player *, QSet<QPoint> fields);
 
 protected:
     void paintEvent(QPaintEvent *);
@@ -45,7 +45,7 @@ private:
     float vCenter;
     float lineWidth;
 
-    const float iconSize = 0.6;
+	const float iconSize = 0.6f;
 
     QSet<QPoint> highlightedFields;
 };

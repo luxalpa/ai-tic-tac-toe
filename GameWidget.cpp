@@ -23,7 +23,7 @@ void GameWidget::appendToGame(Game* g)
     connect(game, SIGNAL(winner(Player*,QSet<QPoint>)), this, SLOT(highlightWinner(Player*,QSet<QPoint>)));
 }
 
-void GameWidget::highlightWinner(Player* p, QSet<QPoint> fields)
+void GameWidget::highlightWinner(Player*, QSet<QPoint> fields)
 {
     highlightedFields = fields;
 }

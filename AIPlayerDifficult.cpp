@@ -10,7 +10,7 @@ AIPlayerDifficult::AIPlayerDifficult(Difficulty dif)
         difLevel = 1.0;
         break;
     case Difficulty::Medium:
-        difLevel = 0.55;
+		difLevel = 0.55f;
         break;
     case Difficulty::Hard:
         difLevel = 0.5;

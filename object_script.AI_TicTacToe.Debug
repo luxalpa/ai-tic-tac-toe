@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\MainWindow.o
+./debug\NewGameDialog.o
+./debug\GameWidget.o
+./debug\GameMap.o
+./debug\Player.o
+./debug\Game.o
+./debug\AIPlayerRandom.o
+./debug\AIPlayerDifficult.o
+./debug\moc_MainWindow.o
+./debug\moc_NewGameDialog.o
+./debug\moc_GameWidget.o
+./debug\moc_Player.o
+./debug\moc_Game.o
+);

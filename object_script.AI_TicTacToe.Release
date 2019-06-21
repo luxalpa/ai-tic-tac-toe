@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\MainWindow.o
+./release\NewGameDialog.o
+./release\GameWidget.o
+./release\GameMap.o
+./release\Player.o
+./release\Game.o
+./release\AIPlayerRandom.o
+./release\AIPlayerDifficult.o
+./release\moc_MainWindow.o
+./release\moc_NewGameDialog.o
+./release\moc_GameWidget.o
+./release\moc_Player.o
+./release\moc_Game.o
+);

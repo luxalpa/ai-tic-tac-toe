@@ -1,4 +1,4 @@
-Artificial Tic Tac Toe game I made in 2015. Went a bit overboard with the graphics.
+Tic Tac Toe game against AI with different difficulty levels I made in 2015. Went a bit overboard with the graphics.
 
 ![Screenshot 1](screenshot1.png)
 
